@@ -1,0 +1,17 @@
+{
+  "name": "fetch-practice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "json-server -p 3000 ./db.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "json-server": "^1.0.0-beta.2"
+  }
+}
